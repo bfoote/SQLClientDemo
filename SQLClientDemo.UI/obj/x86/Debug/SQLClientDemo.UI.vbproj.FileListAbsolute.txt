@@ -1,0 +1,17 @@
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.UI.exe
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.UI.pdb
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.UI.xml
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.BusinessLayer.dll
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.DataLayer.dll
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.BusinessLayer.pdb
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.BusinessLayer.xml
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.DataLayer.pdb
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.DataLayer.xml
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.frmSQLClientDemo.resources
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.Resources.resources
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.exe
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.xml
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.pdb

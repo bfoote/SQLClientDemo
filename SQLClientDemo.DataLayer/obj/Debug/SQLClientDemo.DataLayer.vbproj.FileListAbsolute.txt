@@ -1,0 +1,11 @@
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\bin\Debug\SQLClientDemo.DataLayer.dll.config
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\bin\Debug\SQLClientDemo.DataLayer.dll
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\bin\Debug\SQLClientDemo.DataLayer.pdb
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\bin\Debug\SQLClientDemo.DataLayer.xml
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\obj\Debug\SQLClientDemo.DataLayer.Resources.resources
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\obj\Debug\SQLClientDemo.DataLayer.dll
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\obj\Debug\SQLClientDemo.DataLayer.xml
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.DataLayer\obj\Debug\SQLClientDemo.DataLayer.pdb

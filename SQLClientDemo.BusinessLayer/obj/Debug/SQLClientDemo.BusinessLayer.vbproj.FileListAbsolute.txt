@@ -1,0 +1,13 @@
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\bin\Debug\SQLClientDemo.BusinessLayer.dll
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\bin\Debug\SQLClientDemo.BusinessLayer.pdb
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\bin\Debug\SQLClientDemo.BusinessLayer.xml
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\bin\Debug\SQLClientDemo.DataLayer.dll
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\bin\Debug\SQLClientDemo.DataLayer.pdb
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\bin\Debug\SQLClientDemo.DataLayer.xml
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\obj\Debug\SQLClientDemo.BusinessLayer.Resources.resources
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\obj\Debug\SQLClientDemo.BusinessLayer.dll
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\obj\Debug\SQLClientDemo.BusinessLayer.xml
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.BusinessLayer\obj\Debug\SQLClientDemo.BusinessLayer.pdb
