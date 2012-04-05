@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NWFoote" Class="NWFooteDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.4.169.18;Initial Catalog=NWFoote;User ID=CMLogin" SettingsObjectName="SQLClientDemo.DataLayer.My.MySettings" SettingsPropertyName="NWFooteConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Customers" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="CustomerID" Type="System.String" DbType="NChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ContactTitle" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Region" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="PostalCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_DeleteCustomer" Method="sp_DeleteCustomer">
+    <Parameter Name="CustomerId" Parameter="customerId" Type="System.String" DbType="Char(5)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_UpdateCustomer" Method="sp_UpdateCustomer">
+    <Parameter Name="CustomerId" Parameter="customerId" Type="System.String" DbType="NChar(5)" />
+    <Parameter Name="CompanyName" Parameter="companyName" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="ContactName" Parameter="contactName" Type="System.String" DbType="NVarChar(30)" />
+    <Parameter Name="ContactTitle" Parameter="contactTitle" Type="System.String" DbType="NVarChar(30)" />
+    <Parameter Name="Address" Parameter="address" Type="System.String" DbType="NVarChar(60)" />
+    <Parameter Name="City" Parameter="city" Type="System.String" DbType="NVarChar(15)" />
+    <Parameter Name="Region" Parameter="region" Type="System.String" DbType="NVarChar(15)" />
+    <Parameter Name="PostalCode" Parameter="postalCode" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="Country" Parameter="country" Type="System.String" DbType="NVarChar(15)" />
+    <Parameter Name="Phone" Parameter="phone" Type="System.String" DbType="NVarChar(24)" />
+    <Parameter Name="Fax" Parameter="fax" Type="System.String" DbType="NVarChar(24)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_GetCustomers" Method="sp_GetCustomers">
+    <ElementType Name="sp_GetCustomersResult">
+      <Column Name="CustomerID" Type="System.String" DbType="NChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ContactTitle" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Region" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="PostalCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetCustomersByCity" Method="sp_GetCustomersByCity">
+    <Parameter Name="City" Parameter="city" Type="System.String" DbType="VarChar(25)" />
+    <ElementType Name="sp_GetCustomersByCityResult">
+      <Column Name="CustomerID" Type="System.String" DbType="NChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ContactTitle" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Region" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="PostalCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_InsertCustomer" Method="sp_InsertCustomer">
+    <Parameter Name="CustomerId" Parameter="customerId" Type="System.String" DbType="NChar(5)" />
+    <Parameter Name="CompanyName" Parameter="companyName" Type="System.String" DbType="NVarChar(40)" />
+    <Parameter Name="ContactName" Parameter="contactName" Type="System.String" DbType="NVarChar(30)" />
+    <Parameter Name="ContactTitle" Parameter="contactTitle" Type="System.String" DbType="NVarChar(30)" />
+    <Parameter Name="Address" Parameter="address" Type="System.String" DbType="NVarChar(60)" />
+    <Parameter Name="City" Parameter="city" Type="System.String" DbType="NVarChar(15)" />
+    <Parameter Name="Region" Parameter="region" Type="System.String" DbType="NVarChar(15)" />
+    <Parameter Name="PostalCode" Parameter="postalCode" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="Country" Parameter="country" Type="System.String" DbType="NVarChar(15)" />
+    <Parameter Name="Phone" Parameter="phone" Type="System.String" DbType="NVarChar(24)" />
+    <Parameter Name="Fax" Parameter="fax" Type="System.String" DbType="NVarChar(24)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
