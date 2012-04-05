@@ -46,7 +46,7 @@ Public Class frmSQLClientDemo
         Dim oConn As New SqlConnection(msConnStr)
 
         Try
-            ''''  Brian Says Test
+            ''''  Brian Says Test ''''''
             ' Open the connection
             oConn.Open()
 
