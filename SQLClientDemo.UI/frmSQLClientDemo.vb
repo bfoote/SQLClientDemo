@@ -113,7 +113,7 @@ Public Class frmSQLClientDemo
     End Sub
 
     Private Sub btnGetCustomers_Click(sender As System.Object, e As System.EventArgs) Handles btnGetCustomers.Click
-
+        '''''test
         moCustomers = New CCustomers
         moCustomers.GetCustomers()
         DataGridView1.DataSource = moCustomers
