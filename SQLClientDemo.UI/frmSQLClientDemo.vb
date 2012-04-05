@@ -53,6 +53,7 @@ Public Class frmSQLClientDemo
             ' Create a command object that calls a stored procedure
 
             Dim oCmd As New SqlCommand("sp_GetCustomers", oConn)
+
             oCmd.CommandType = CommandType.StoredProcedure
 
             Dim oDA As New SqlDataAdapter(oCmd)

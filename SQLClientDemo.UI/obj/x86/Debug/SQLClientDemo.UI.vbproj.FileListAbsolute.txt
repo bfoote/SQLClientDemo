@@ -1,4 +1,3 @@
-C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.UI.exe
 C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.UI.pdb
 C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.UI.xml
 C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\bin\Debug\SQLClientDemo.BusinessLayer.dll
@@ -15,3 +14,6 @@ C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\GenerateResource
 C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.exe
 C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.xml
 C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.pdb
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.CustomerControl.resources
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.CustomerData.resources
+C:\Users\Brian\Dev\SQLClientDemo\SQLClientDemo.UI\obj\x86\Debug\SQLClientDemo.UI.LoginForm1.resources
